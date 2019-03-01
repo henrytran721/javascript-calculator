@@ -1,0 +1,88 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  margin: 0 400px;
+}
+
+.calculator {
+  height: 700px;
+  background-color: #949392;
+}
+
+.calculator-screen {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.negativeButton {
+  display: none;
+}
+
+.calculator-screen p {
+  align-self: flex-end;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.calculator-buttons {
+  display: grid;
+  height: 500px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4,1fr);
+}
+
+.firstRowBtn {
+  color: white;
+  background: none;
+  border: none;
+  background-color: #696765;
+  font-size: 1.5em;
+  border-right: 1px solid black;
+}
+
+.operationBtn {
+  color: white;
+  background: none;
+  border: none;
+  background-color: orange;
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.equalBtn {
+  color: white;
+  background: none;
+  border: none;
+  background-color: orange;
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.numBtn {
+  color: white;
+  background: none;
+  border: none;
+  background-color: #bab6b3;
+  font-size: 1.5em;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.zeroBtn {
+  color: white;
+  background: none;
+  border: none;
+  background-color: #bab6b3;
+  font-size: 1.5em;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  grid-column-start: span 2;
+}
